@@ -36,5 +36,6 @@ namespace SegaSaturn.NET
         public SegaSaturnVertex D { get; set; }
         public uint? TextureId { get; set; }
         public bool UseHalfTransparency { get; set; }
+        public bool UseScreenDoors { get; set; }
     }
 }

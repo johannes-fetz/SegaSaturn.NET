@@ -38,6 +38,7 @@ namespace SegaSaturn.NET
         public SegaSaturnColor Color { get; set; }
         public uint? TextureId { get; set; }
         public bool UseLight { get; set; }
+        public bool UseHalfTransparency { get; set; }
         public bool UseScreenDoors { get; set; }
     }
 }
